@@ -28,7 +28,11 @@ const Home = () => {
           alignItems="center"
           spacing={['16', '18', '20', '56']}
         >
-          <VStack width={'full'} alignItems={['center', 'flex-end']}>
+          <VStack
+            width={'full'}
+            alignItems={['center', 'flex-end']}
+            spacing="8"
+          >
             <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
             <Text
               fontSize={'2xl'}
