@@ -25,7 +25,11 @@ const Course = ({
 }) => {
   return (
     <VStack className="course" alignItems={['center', 'flex-start']}>
-      <Image src={imageSrc} boxSize="60" objectFit={'contain'} />
+      <Image
+        src="https://wallpaper.dog/large/20486753.jpg"
+        boxSize="60"
+        objectFit={'contain'}
+      />
       <Heading
         textAlign={['center', 'left']}
         maxW="200px"

@@ -23,7 +23,7 @@ const LinkButton = ({ url = '/', title = 'Home', onClose }) => (
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const isAuthenticated = true;
+  const isAuthenticated = false;
 
   const user = {
     role: 'admin',
@@ -58,7 +58,7 @@ const Header = () => {
 
           <DrawerBody>
             <VStack spacing={'4'} alignItems="flex-start">
-              <LinkButton url="/" title="Home" />
+              <LinkButton onClose={onClose} url="/" title="Home" />
               <LinkButton
                 onClose={onClose}
                 url="/courses"
