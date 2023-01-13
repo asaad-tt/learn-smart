@@ -30,7 +30,7 @@ const Header = () => {
   };
 
   const logoutHandler = () => {
-    // onClose();
+    onClose();
     // dispatch(logout());
   };
   return (
@@ -60,12 +60,12 @@ const Header = () => {
             <VStack spacing={'4'} alignItems="flex-start">
               <LinkButton url="/" title="Home" />
               <LinkButton
-                // onClose={onClose}
+                onClose={onClose}
                 url="/courses"
                 title="Browse All Courses"
               />
               <LinkButton
-                // onClose={onClose}
+                onClose={onClose}
                 url="/request"
                 title="Request a Course"
               />
