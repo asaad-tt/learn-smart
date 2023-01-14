@@ -16,6 +16,7 @@ import Notfound from './components/Layout/NotFound/Notfound';
 import PaymentFail from './components/Payments/PaymentFail';
 import PaymentSuccess from './components/Payments/PaymentSuccess';
 import Subscribe from './components/Payments/Subscribe';
+import Profile from './components/Profile/Profile';
 import Request from './components/Request/Request';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/request" element={<Request />} />
         <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgetpassword" element={<ForgetPassword />} />

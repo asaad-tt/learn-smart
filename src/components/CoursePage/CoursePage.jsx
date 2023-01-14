@@ -1,15 +1,32 @@
-import { Box, Grid, Heading, Text } from '@chakra-ui/react';
-import React from 'react';
+import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react';
+import React, { useState } from 'react';
 import introVideo from '../../assets/videos/intro.mp4';
 
 const CoursePage = () => {
+  const [lectureNumber, setLectureNumber] = useState(0);
+
   const lectureTitle = 'LectureTitle';
-  const lectureNumber = 0;
 
   const lectures = [
     {
-      _id: 'dbsadjd',
-      title: 'sample',
+      _id: 'dbsadjd1',
+      title: 'sample1',
+      description: 'sdks skdskdn dasdsd asdsa',
+      video: {
+        url: 'asasd',
+      },
+    },
+    {
+      _id: 'dbsadjd2',
+      title: 'sample2',
+      description: 'sdks skdskdn dasdsd asdsa',
+      video: {
+        url: 'asasd',
+      },
+    },
+    {
+      _id: 'dbsadjd3',
+      title: 'sample3',
       description: 'sdks skdskdn dasdsd asdsa',
       video: {
         url: 'asasd',
@@ -39,6 +56,26 @@ const CoursePage = () => {
         <Text m="4" children={'helooooooooooooo'} />
         <Text m="4" children={lectures[lectureNumber].description} />
       </Box>
+
+      <VStack>
+        {lectures.map((element, index) => (
+          <button
+            onClick={() => setLectureNumber(index)}
+            key={element._id}
+            style={{
+              width: '100%',
+              padding: '1rem',
+              textAlign: 'center',
+              margin: 0,
+              borderBottom: '1px solid rgba(0,0,0,0.2)',
+            }}
+          >
+            <Text noOfLines={1}>
+              #{index + 1} {element.title}
+            </Text>
+          </button>
+        ))}
+      </VStack>
     </Grid>
   );
 };
