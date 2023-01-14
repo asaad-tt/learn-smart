@@ -1,7 +1,7 @@
 const data = `
 1. AGREEMENT TO TERMS
 
-These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Video Streaming ("Company", “we”, “us”, or “our”), concerning your access to and use of the https://instagram.com/meabhisingh website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). We are registered in India and have our registered office at asasddasd, dasdasd, UP 4534534. You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Video Streaming ("Company", “we”, “us”, or “our”), concerning your access to and use of the https://www.instagram.com/zasad2385/ website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). We are registered in Bangladesh and have our registered office at asasddasd, dasdasd, UP 4534534. You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
 Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms of Use, and you waive any right to receive specific notice of each such change. Please ensure that you check the applicable Terms every time you use our Site so that you understand which Terms apply. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Use by your continued use of the Site after the date such revised Terms of Use are posted.
 
@@ -122,7 +122,7 @@ We reserve the right, but not the obligation, to: (1) monitor the Site for viola
 
 12. PRIVACY POLICY
 
-We care about data privacy and security. Please review our Privacy Policy: https://youtube.com/6packprogrammer. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in India. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Site, you are transferring your data to India, and you agree to have your data transferred to and processed in India.
+We care about data privacy and security. Please review our Privacy Policy: https://www.youtube.com/@programmingwithmosh. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in Bangladesh. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in Bangladesh, then through your continued use of the Site, you are transferring your data to Bangladesh, and you agree to have your data transferred to and processed in Bangladesh.
 
 
 13. COPYRIGHT INFRINGEMENTS
@@ -146,12 +146,12 @@ We cannot guarantee the Site will be available at all times. We may experience h
 
 16. GOVERNING LAW
 
-These Terms shall be governed by and defined following the laws of India. Video Streaming and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.
+These Terms shall be governed by and defined following the laws of Bangladesh. Video Streaming and yourself irrevocably consent that the courts of Bangladesh shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.
 
 
 17. DISPUTE RESOLUTION
 
-You agree to irrevocably submit all disputes related to Terms or the legal relationship established by this Agreement to the jurisdiction of the India courts. Video Streaming shall also maintain the right to bring proceedings as to the substance of the matter in the courts of the country where you reside or, if these Terms are entered into in the course of your trade or profession, the state of your principal place of business.
+You agree to irrevocably submit all disputes related to Terms or the legal relationship established by this Agreement to the jurisdiction of the Bangladesh courts. Video Streaming shall also maintain the right to bring proceedings as to the substance of the matter in the courts of the country where you reside or, if these Terms are entered into in the course of your trade or profession, the state of your principal place of business.
 
 
 18. CORRECTIONS
@@ -194,11 +194,10 @@ These Terms of Use and any policies or operating rules posted by us on the Site 
 In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
 
 Video Streaming
-asasddasd
-dasdasd, UP 4534534
-India
+Dhaka
+Bangladesh
 Phone: __________
-official.6packprogrammer@gmail.com
+asad.zaman2385@gmail.com
 
 `;
 
