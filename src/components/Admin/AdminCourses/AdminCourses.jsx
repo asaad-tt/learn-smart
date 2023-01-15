@@ -16,10 +16,55 @@ import {
   Th,
   Thead,
   Tr,
+  useDisclosure,
 } from '@chakra-ui/react';
 import { RiDeleteBin7Fill } from 'react-icons/ri';
+import CourseModal from './CourseModal';
 
 const AdminCourses = () => {
+  const { isOpen, onClose, onOpen } = useDisclosure();
+  const courses = [
+    {
+      _id: 'fs',
+      title: 'react',
+      category: 'web dev',
+      poster: {
+        url: 'https://i.ibb.co/j6YZTc1/eamil-marketing.jpg',
+      },
+      createdBy: 'laluMia',
+      views: 23,
+      numOfVideos: 12,
+    },
+  ];
+
+  const coureDetailsHandler = (courseId, title) => {
+    // dispatch(getCourseLectures(courseId));
+    onOpen();
+    // setCourseId(courseId);
+    // setCourseTitle(title);
+  };
+  const deleteButtonHandler = courseId => {
+    // console.log(courseId);
+    // dispatch(deleteCourse(courseId));
+  };
+
+  const deleteLectureButtonHandler = async (courseId, lectureId) => {
+    // await dispatch(deleteLecture(courseId, lectureId));
+    // dispatch(getCourseLectures(courseId));
+  };
+
+  const addLectureHandler = async (e, courseId, title, description, video) => {
+    e.preventDefault();
+    // const myForm = new FormData();
+
+    // myForm.append('title', title);
+    // myForm.append('description', description);
+    // myForm.append('file', video);
+
+    // await dispatch(addLecture(courseId, myForm));
+    // dispatch(getCourseLectures(courseId));
+  };
+
   return (
     <Grid
       css={{
@@ -60,23 +105,23 @@ const AdminCourses = () => {
                   deleteButtonHandler={deleteButtonHandler}
                   key={item._id}
                   item={item}
-                  loading={loading}
+                  // loading={loading}
                 />
               ))}
             </Tbody>
           </Table>
         </TableContainer>
 
-        {/* <CourseModal
+        <CourseModal
           isOpen={isOpen}
           onClose={onClose}
-          id={courseId}
-          courseTitle={courseTitle}
+          id={'alooalao'}
+          courseTitle={'react course'}
           deleteButtonHandler={deleteLectureButtonHandler}
           addLectureHandler={addLectureHandler}
-          lectures={lectures}
-          loading={loading}
-        /> */}
+          // lectures={lectures}
+          // loading={loading}
+        />
       </Box>
 
       <Sidebar />
